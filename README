@@ -1,0 +1,1 @@
+docker run --volume=/mnt/zaloha/babice/data:/dynatree/data --volume=/mnt/zaloha/babice/outputs:/dynatree/outputs --network=bridge --workdir=/dynatree/scripts -p 8700:8700 dynatree
